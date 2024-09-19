@@ -26,7 +26,7 @@ const benefits = [
 const BenefitSection = () => {
   return (
     <div className="flex justify-around items-start my-[70px]">
-      <div className="flex-[0.4]">
+      <div className="flex flex-col flex-[0.4] gap-8">
         <h2 className="font-chakra font-semibold text-5xl text-white leading-[120%]">
           You Innovate,
           <br />
@@ -50,7 +50,7 @@ const BenefitSection = () => {
 
             <div>
               <h2 className="font-bold font-chakra text-white text-xl">{item?.heading}</h2>
-              <p className="text-white/65 leading-[135%] tracking-wide">{item?.description}</p>
+              <p className="text-lg text-white/65 leading-[135%] tracking-wide">{item?.description}</p>
             </div>
           </div>
         ))}

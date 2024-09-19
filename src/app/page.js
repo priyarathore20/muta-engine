@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import BenefitSection from "@/Containers/BenefitSection";
-import CardsSection from "@/Containers/CardsSection";
-import DataSection from "@/Containers/DataSection";
-import HeroSection from "@/Containers/HeroSection";
-import ImageSection from "@/Containers/ImageSection";
-import LastSection from "@/Containers/LastSection";
+import BenefitSection from "@/Containers/Home/BenefitSection";
+import CardsSection from "@/Containers/Home/CardsSection";
+import DataSection from "@/Containers/Home/DataSection";
+import HeroSection from "@/Containers/Home/HeroSection";
+import ImageSection from "@/Containers/Home/ImageSection";
+import LastSection from "@/Containers/Home/LastSection";
 
 export default function Home() {
   return (
