@@ -25,7 +25,7 @@ const benefits = [
 
 const BenefitSection = () => {
   return (
-    <div className="flex justify-around items-start my-[70px]">
+    <div className="flex lg:flex-row flex-col justify-around items-start gap-y-16 my-[70px] text-center lg:text-left">
       <div className="flex flex-col flex-[0.4] gap-8">
         <h2 className="font-chakra font-semibold text-5xl text-white leading-[120%]">
           You Innovate,
@@ -38,7 +38,7 @@ const BenefitSection = () => {
           keeps your intellectual property safe, allowing you to concentrate on
           what you do best.
         </p>
-        <div className="w-full max-w-44">
+        <div className="lg:block hidden w-full max-w-44">
           <Button label={"Get Started"} variant={"contained"} />
         </div>
       </div>
@@ -46,11 +46,15 @@ const BenefitSection = () => {
       <div className="flex flex-col flex-[0.4] gap-10">
         {benefits.map((item, i) => (
           <div key={i} className="flex items-start gap-5">
-            <Image src={item?.img} alt="" width={64} height={50} />
+            <Image src={item?.img} alt="" width={64} height={50}  className="lg:block hidden"/>
 
             <div>
-              <h2 className="font-bold font-chakra text-white text-xl">{item?.heading}</h2>
-              <p className="text-lg text-white/65 leading-[135%] tracking-wide">{item?.description}</p>
+              <h2 className="font-bold font-chakra text-white text-xl">
+                {item?.heading}
+              </h2>
+              <p className="text-lg text-white/65 leading-[135%] tracking-wide">
+                {item?.description}
+              </p>
             </div>
           </div>
         ))}

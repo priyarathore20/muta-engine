@@ -22,6 +22,10 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         chakra: ["Chakra Petch", "sans-serif"],
       },
+      screens:{
+        xs: '585px',
+        xxs: '360px',
+      }
     },
   },
   plugins: [],

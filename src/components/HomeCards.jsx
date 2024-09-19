@@ -21,18 +21,19 @@ const cardContent = [
 
 const HomeCards = () => {
   return (
-    <div className="flex flex-col gap-5 card-parent">
+    <div className="flex flex-col gap-20 lg:gap-5 lg:card-parent">
       {cardContent.map((item, i) => (
-        <div key={i} className="flex justify-between items-center gap-20">
+        <div
+          key={i}
+          className="flex lg:flex-row flex-col justify-between items-center gap-20"
+        >
           <Image src={item?.img} alt="" width={500} height={500} />
-          <div className="flex flex-col flex-1 gap-14 w-full max-w-[600px] text-left text-white">
-            <h3 className="font-bold font-chakra text-5xl">
-              {item?.heading}
-            </h3>
+          <div className="flex flex-col flex-1 gap-14 w-full max-w-[600px] text-center text-white lg:text-left">
+            <h3 className="font-bold font-chakra text-5xl">{item?.heading}</h3>
             <p className="font-medium font-montserrat text-xl leading-[140%]">
               {item?.subHeading}
             </p>
-            <div className="w-full max-w-36">
+            <div className="flex justify-center lg:justify-start w-full lg:max-w-36">
               <Button label={item?.ButtonLabel} variant={"outlined"} />
             </div>
           </div>

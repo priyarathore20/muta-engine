@@ -3,7 +3,7 @@ import React from "react";
 
 const LastSection = () => {
   return (
-    <div className="mx-16 my-[70px]">
+    <div className="lg:mx-16 my-[70px]">
       <div className="flex justify-between items-center bg-gradient-to-br from-gradient1 to-gradient2 px-16 py-[50px] rounded-[30px]">
         <div className="flex flex-col flex-[0.6] gap-7">
           <h2 className="font-chakra font-semibold text-5xl text-white">

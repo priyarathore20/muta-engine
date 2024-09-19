@@ -17,10 +17,10 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <div className="px-20 w-full">
-      <div className="flex justify-between border-shadowBlue pb-12 border-b border-opacity-15">
+    <div className="lg:px-20 w-full">
+      <div className="flex lg:flex-row flex-col justify-between items-center gap-y-10 border-shadowBlue pb-12 border-b border-opacity-15">
         <Image src="/muta-logo.png" alt="" width={100} height={40} />
-        <div className="flex gap-4 text-white">
+        <div className="flex flex-1 gap-4 text-white">
           {footerLinks.map((links, i) => (
             <Link key={i} href="#" className="font-medium font-montserrat">
               {links}
