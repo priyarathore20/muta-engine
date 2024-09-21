@@ -21,7 +21,7 @@ const cardContent = [
 
 const CardsSection = () => {
   return (
-    <div className="flex flex-col gap-20 lg:gap-5 w-full lg:card-parent">
+    <div className="flex flex-col gap-20 lg:gap-5 w-full card-parent">
       {cardContent.map((item, i) => (
         <div
           key={i}

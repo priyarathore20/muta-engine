@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="flex justify-center lg:justify-between items-center gap-10 xl:gap-24 mt-[70px] mb-[100px]">
       <div className="flex flex-col flex-1 lg:flex-[0.6] items-center lg:items-start text-center lg:text-left">
         <div className="w-full max-w-96">
-          <p className="bg-transparent shadow-custom px-5 py-4 border border-t-[3px] border-blue rounded-lg font-medium font-montserrat text-center text-white leading-4 cursor-pointer">
+          <p className="bg-transparent shadow-custom px-3 py-4 border border-t-[3px] border-blue rounded-lg font-medium font-montserrat text-center text-white leading-4 cursor-pointer">
             Protecting Code, Preserving Innovation{" "}
           </p>
         </div>
