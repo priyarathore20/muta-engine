@@ -5,7 +5,7 @@ const Button = ({ label, variant }) => {
   return (
     <div
       className={classNames(
-        "py-2 px-5 text-center font-montserrat font-medium cursor-pointer rounded-2xl",
+        "py-4 px-5 text-center font-montserrat leading-4 font-medium cursor-pointer rounded-2xl",
         {
           "bg-blue text-black shadow-custom": variant === "contained",
           "bg-transparent border border-t-[3px] shadow-custom text-white border-blue":

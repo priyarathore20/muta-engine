@@ -18,7 +18,7 @@ const Header = () => {
           <Link
             key={i}
             href="#"
-            className="border-white pb-2 hover:border-b-2 font-medium text-white leading-4"
+            className="hover:border-white mx-2 pb-2 border-transparent border-b-2 font-medium text-white leading-4 tracking-wide transition-all"
           >
             {item}
           </Link>
