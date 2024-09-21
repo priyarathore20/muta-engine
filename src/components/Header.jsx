@@ -25,11 +25,11 @@ const Header = () => {
         ))}
       </div>
 
-      <div className="flex items-center gap-6">
+      <div className="md:flex items-center gap-6 hidden">
         <Button label="Login" variant="outlined" />
         <Button label="Sign up" variant="contained" />
-        <CgMenuGridO className="block lg:hidden w-8 h-8 text-white" />
       </div>
+      <CgMenuGridO className="block lg:hidden w-8 h-8 text-white" />
     </header>
   );
 };

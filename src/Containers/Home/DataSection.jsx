@@ -3,7 +3,7 @@ import React from "react";
 const DataSection = () => {
   return (
     <section className="flex justify-center mb-[70px]">
-      <div className="flex flex-[0.7] lg:flex-1 justify-center items-stretch lg:items-center gap-16 lg:gap-16 w-full max-w-5xl text-white">
+      <div className="flex md:flex-row flex-col justify-around items-stretch lg:items-center gap-5 lg:gap-16 w-full max-w-5xl text-white">
         <div className="flex lg:flex-row flex-col items-center gap-6 text-center">
           <h3 className="font-chakra text-3xl leading-[130%]">5000+</h3>
           <p className="font-medium text-blue text-lg uppercase leading-[130%]">

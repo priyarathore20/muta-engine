@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Header />
       <div className="section-container mx-auto flex flex-col items-center">
-        <main className="">
+        <main className="w-full">
           {/*Sections*/}
           <HeroSection />
           <DataSection />

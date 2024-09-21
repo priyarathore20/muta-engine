@@ -4,7 +4,7 @@ import React from "react";
 const LastSection = () => {
   return (
     <div className="lg:mx-16 my-[70px]">
-      <div className="flex justify-between items-center bg-gradient-to-br from-gradient1 to-gradient2 px-16 py-[50px] rounded-[30px]">
+      <div className="flex md:flex-row flex-col justify-between items-center gap-10 bg-gradient-to-br from-gradient1 to-gradient2 px-16 py-[50px] rounded-[30px] text-center md:text-left">
         <div className="flex flex-col flex-[0.6] gap-7">
           <h2 className="font-chakra font-semibold text-5xl text-white">
             Ready to <span className="text-blue">Secure</span> Your Software?
