@@ -21,8 +21,8 @@ export default function Home() {
           <BenefitSection />
           <LastSection />
         </main>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

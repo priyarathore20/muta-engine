@@ -17,7 +17,7 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <div className="lg:px-20 w-full">
+    <div className="w-full header-container">
       <div className="flex lg:flex-row flex-col justify-between items-center gap-y-10 border-shadowBlue pb-12 border-b border-opacity-15">
         <Image src="/muta-logo.png" alt="" width={100} height={40} />
         <div className="flex flex-wrap justify-center items-center gap-4 text-white">
