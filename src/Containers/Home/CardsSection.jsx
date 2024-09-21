@@ -25,7 +25,7 @@ const CardsSection = () => {
       {cardContent.map((item, i) => (
         <div
           key={i}
-          className="flex lg:flex-row flex-col justify-between items-center gap-20"
+          className="flex lg:flex-row flex-col flex-1 items-center gap-20"
         >
           <Image src={item?.img} alt="" width={500} height={500} />
           <div className="flex flex-col flex-1 gap-14 w-full max-w-[600px] text-center text-white lg:text-left">
@@ -33,7 +33,7 @@ const CardsSection = () => {
             <p className="font-medium font-montserrat text-xl leading-[140%]">
               {item?.subHeading}
             </p>
-            <div className="flex justify-center lg:justify-start w-full lg:max-w-36">
+            <div className="flex justify-end lg:justify-start w-full lg:max-w-36">
               <Button label={item?.ButtonLabel} variant={"outlined"} />
             </div>
           </div>

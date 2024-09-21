@@ -17,7 +17,11 @@ body {
 }
 
 .card-parent > :nth-child(even) {
-  @apply flex-row-reverse;
+  flex-direction: row-reverse;
+
+  div {
+    text-align: right;
+  }
 }
 
 .card-parent > :nth-child(odd) {
@@ -25,9 +29,9 @@ body {
 }
 
 .section-container {
-  @apply px-5 lg:px-[60px] xl:px-[100px] 2xl:max-w-[1536px] 2xl:mx-auto ;
+  @apply px-5 lg:px-[60px] xl:px-[100px] 2xl:max-w-[1536px] 2xl:mx-auto;
 }
 
 .header-container {
-  @apply px-5 lg:px-[60px] xl:px-[80px] 2xl:max-w-[1536px] 2xl:mx-auto ;
+  @apply px-5 lg:px-[60px] xl:px-[80px] 2xl:max-w-[1536px] 2xl:mx-auto;
 }
