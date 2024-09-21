@@ -8,7 +8,7 @@ const navitems = ["Overview", "About", "Contact us", "Solutions"];
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center lg:px-20 py-10 w-full h-32 font-montserrat">
+    <header className="flex justify-between items-center py-10 w-full h-32 font-montserrat header-container">
       <div>
         <Image src="/muta-logo.png" alt="" width={100} height={45} />
       </div>

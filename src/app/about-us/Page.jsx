@@ -11,7 +11,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="flex flex-col items-center mx-auto container">
+    <div className="flex flex-col items-center mx-auto section-container">
       <Header />
       <main>
         {/*---Sections----*/}

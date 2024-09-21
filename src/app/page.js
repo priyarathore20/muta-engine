@@ -9,18 +9,20 @@ import LastSection from "@/Containers/Home/LastSection";
 
 export default function Home() {
   return (
-    <div className="container mx-auto flex flex-col items-center">
+    <>
       <Header />
-      <main className="lg:px-20 max-sm:px-20">
-        {/*Sections*/}
-        <HeroSection />
-        <DataSection />
-        <ImageSection />
-        <CardsSection />
-        <BenefitSection />
-        <LastSection />
-      </main>
-      <Footer />
-    </div>
+      <div className="section-container mx-auto flex flex-col items-center">
+        <main className="">
+          {/*Sections*/}
+          <HeroSection />
+          <DataSection />
+          <ImageSection />
+          <CardsSection />
+          <BenefitSection />
+          <LastSection />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
