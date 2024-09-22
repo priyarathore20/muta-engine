@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="lg:relative flex justify-center items-center my-[70px]">
       <div className="top-14 left-32 lg:absolute flex flex-col items-center lg:items-start gap-10 text-center text-white lg:text-left">
         <h2 className="font-bold font-chakra text-7xl">Our Mission</h2>
-        <p className="w-full max-w-[80%] lg:max-w-[640px] font-montserrat text-lg text-white">
+        <p className="w-full max-w-[90%] lg:max-w-[640px] font-montserrat text-lg text-white">
           At MutaEngine, our mission is to revolutionize software security by
           providing cutting-edge solutions that protect your software from
           piracy, reverse engineering, and unauthorized modifications. We
