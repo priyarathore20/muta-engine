@@ -16,7 +16,7 @@ const cardContent = [
 
 const DetailSection = () => {
   return (
-    <div className="flex flex-col items-center gap-20 my-[70px] w-full">
+    <div className="flex flex-col items-center gap-20 my-[70px] w-full text-center">
       <div className="flex flex-col items-center gap-10 text-white">
         <h2 className="font-bold font-chakra text-6xl">What We Do ? </h2>
         <p className="font-medium font-montserrat text-center text-xl">
@@ -26,9 +26,9 @@ const DetailSection = () => {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-col justify-between gap-12">
+      <div className="flex lg:flex-row flex-col justify-between gap-12">
         {cardContent.map((item, i) => (
-          <div key={i} className="border-4 border-shadowBlue bg-transparent shadow-md shadow-shadowBlue rounded-3xl w-[500px] h-[650px]">
+          <div key={i} className="border-4 border-shadowBlue bg-transparent shadow-md shadow-shadowBlue rounded-3xl w-full max-w-[500px]">
             <div class="bg-[linear-gradient(to_right,#1f1f1f_1px,transparent_1px),linear-gradient(to_bottom,#1f1f1f_1px,transparent_1px)] flex flex-col gap-16 bg-[size:24px_24px] px-11 py-16 h-full">
               <p className="font-montserrat text-center text-lg text-white">{item?.description}</p>
               <Image src={item?.img} alt="" width={414} height={290} />

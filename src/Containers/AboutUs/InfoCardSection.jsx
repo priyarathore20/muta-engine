@@ -17,12 +17,17 @@ const cardContent = [
 const InfoCardSection = () => {
   return (
     <div className="flex flex-col items-center gap-20 my-[70px] w-full">
-      <h2 className="font-bold font-chakra text-7xl text-white">Who We Are</h2>
+      <h2 className="font-bold font-chakra text-7xl text-center text-white">Who We Are</h2>
       <div className="flex flex-col gap-8">
         {cardContent.map((item, i) => (
-          <div key={i} className="flex lg:flex-row flex-col justify-between items-center gap-y-10">
-            <Image src={item?.img} alt="" width={540} height={372} />
-            <p className="flex-[0.8] font-medium font-montserrat text-center text-lg text-white lg:text-left">
+          <div
+            key={i}
+            className="flex lg:flex-row flex-col justify-between items-center gap-y-10 lg:gap-x-20"
+          >
+            <div className="flex-[0.5]">
+              <Image src={item?.img} alt="" width={540} height={372} />
+            </div>
+            <p className="flex-[0.5] font-medium font-montserrat text-center text-lg text-white lg:text-left">
               {item?.description}
             </p>
           </div>

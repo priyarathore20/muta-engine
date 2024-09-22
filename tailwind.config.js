@@ -22,10 +22,14 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         chakra: ["Chakra Petch", "sans-serif"],
       },
-      screens:{
-        xs: '585px',
-        xxs: '360px',
-      }
+      screens: {
+        xs: "585px",
+        xxs: "360px",
+      },
+      backgroundImage: {
+        "custom-gradient":
+          "radial-gradient(ellipse 20% 40% at 30% 50%, rgba(255, 255, 255, 0.2), #00040f)",
+      },
     },
   },
   plugins: [],

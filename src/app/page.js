@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="section-container mx-auto flex flex-col items-center">
-        <main className="w-full">
+      <div className="">
+        <main className="w-full section-container mx-auto flex flex-col items-center">
           {/*Sections*/}
           <HeroSection />
           <DataSection />

@@ -13,18 +13,16 @@ const AboutPage = () => {
   return (
     <>
       <Header />
-      <div className="flex flex-col items-center mx-auto section-container">
-        <main>
+      <div className="">
+        <HeroSection />
+        <main className="flex flex-col items-center mx-auto section-container">
           {/*---Sections----*/}
-          <div className="">
-            <HeroSection />
-            <InfoCardSection />
-            <DetailSection />
-            <BenefitSection />
-            <ChooseUsSection />
-            <StorySection />
-            <LastSection />
-          </div>
+          <InfoCardSection />
+          <DetailSection />
+          <BenefitSection />
+          <ChooseUsSection />
+          <StorySection />
+          <LastSection />
         </main>
       </div>
       <Footer />
