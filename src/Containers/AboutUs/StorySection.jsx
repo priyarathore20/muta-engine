@@ -4,7 +4,7 @@ import React from "react";
 
 const StorySection = () => {
   return (
-    <div className="flex justify-between items-center my-[70px]">
+    <div className="flex lg:flex-row flex-col justify-between items-center gap-y-10 my-[70px] text-center lg:text-left">
       <Image alt="" src="/cardImg2.png" width={500} height={500} />
 
       <div className="flex flex-col flex-[0.8] text-white">
@@ -28,8 +28,10 @@ const StorySection = () => {
           </p>
         </div>
 
-        <div className="mt-16 w-full max-w-48">
-          <Button label={"Learn More"} variant={"outlined"} />
+        <div className="flex justify-center lg:justify-start">
+          <div className="mt-16 w-full max-w-48">
+            <Button label={"Learn More"} variant={"outlined"} />
+          </div>
         </div>
       </div>
     </div>

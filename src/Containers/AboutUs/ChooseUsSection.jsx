@@ -25,11 +25,11 @@ const cards = [
 const ChooseUsSection = () => {
   return (
     <div className="flex flex-col items-center gap-16 my-[70px]">
-      <h2 className="font-bold font-chakra text-6xl text-white">
+      <h2 className="font-bold font-chakra text-6xl text-center text-white">
         Why Choose MutaEngine ?
       </h2>
 
-      <div className="flex justify-between items-stretch gap-12">
+      <div className="flex lg:flex-row flex-col justify-between items-stretch gap-12">
         {cards.map((item, i) => (
           <div key={i} className="flex flex-col items-center gap-9 border-4 border-shadowBlue shadow-custom px-5 py-8 rounded-3xl text-white">
             <Image src={item.img} alt="" width={350} height={200} />

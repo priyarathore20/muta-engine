@@ -4,8 +4,8 @@ import React from "react";
 const LastSection = () => {
   return (
     <div className="my-[70px]">
-      <div className="flex justify-between items-center bg-gradient-to-br from-gradient1 to-gradient2 px-16 py-[50px] rounded-[30px]">
-        <div className="flex flex-col flex-[0.6] gap-7">
+      <div className="flex lg:flex-row flex-col justify-between items-center gap-y-10 bg-gradient-to-br from-gradient1 to-gradient2 px-16 py-[50px] rounded-[30px]">
+        <div className="flex flex-col flex-[0.6] gap-7 text-center lg:text-left">
           <h2 className="font-chakra font-semibold text-5xl text-white">
             Get In Touch
           </h2>

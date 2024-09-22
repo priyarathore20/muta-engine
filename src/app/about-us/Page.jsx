@@ -11,22 +11,24 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="flex flex-col items-center mx-auto section-container">
+    <>
       <Header />
-      <main>
-        {/*---Sections----*/}
-        <HeroSection />
-        <div className="px-20">
-          <InfoCardSection />
-          <DetailSection />
-          <BenefitSection />
-          <ChooseUsSection />
-          <StorySection />
-          <LastSection />
-        </div>
-      </main>
+      <div className="flex flex-col items-center mx-auto section-container">
+        <main>
+          {/*---Sections----*/}
+          <div className="">
+            <HeroSection />
+            <InfoCardSection />
+            <DetailSection />
+            <BenefitSection />
+            <ChooseUsSection />
+            <StorySection />
+            <LastSection />
+          </div>
+        </main>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
